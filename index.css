@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: rgb(31, 41, 55);
+}
+
+header::-webkit-scrollbar {
+	display: none;
+}
+
+footer::-webkit-scrollbar {
+	display: none;
+}
+
+p {
+	@apply mb-5 text-white;
+}
+
+ul {
+	@apply list-disc ml-10 mb-5 text-white;
+}
+
+h1,
+h2 {
+	@apply text-2xl mb-2 font-bold text-white;
+}
+
+h1 {
+	@apply mb-10;
+}
+
+strong {
+	@apply text-red-400 font-normal m-0 p-0;
+}
